@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Rana Afrin K — Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&family=Inter:wght@300;400;500&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+<nav>
+  <a class="nav-logo" href="#hero">RA.</a>
+  <ul class="nav-links">
+    <li><a href="#about">About</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#education">Education</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+  <button class="hamburger" onclick="toggleMenu()" aria-label="Menu">
+    <span></span><span></span><span></span>
+  </button>
+</nav>
+
+<div class="mobile-menu" id="mobileMenu">
+  <a href="#about" onclick="closeMenu()">About</a>
+  <a href="#skills" onclick="closeMenu()">Skills</a>
+  <a href="#projects" onclick="closeMenu()">Projects</a>
+  <a href="#education" onclick="closeMenu()">Education</a>
+  <a href="#contact" onclick="closeMenu()">Contact</a>
+</div>
+
+<!-- HERO -->
+<section id="hero">
+  <div class="hero-inner">
+    <div class="hero-eyebrow">AI &amp; Data Science Student</div>
+    <h1>Hi, I'm <span class="grad">Rana Afrin K</span></h1>
+    <p class="hero-sub">B.Tech student in Artificial Intelligence and Data Science with a strong interest in web development and machine learning, focused on building clean, impactful solutions.</p>
+    <div class="btn-group">
+      <a href="#projects" class="btn btn-primary">View My Work</a>
+      <a href="#contact" class="btn btn-outline">Get in Touch</a>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about">
+  <p class="section-label">About Me</p>
+  <div class="about-grid">
+    <div class="about-img-wrap">👩‍💻</div>
+    <div class="about-text">
+      <h2>Learning by doing,<br>growing every day.</h2>
+      <p>I am a B.Tech student in Artificial Intelligence and Data Science with a strong interest in web development and machine learning. I enjoy creating clean and responsive web applications while continuously learning new technologies.</p>
+      <p>My goal is to build impactful solutions that combine creativity and logic. I am continuously improving my technical skills.</p>
+      <p>I believe in <strong>learning by doing</strong>, and I am focused on growing as a developer by building consistent, meaningful projects.</p>
+    </div>
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section id="skills">
+  <p class="section-label">Skills</p>
+  <h2>What I bring to the table</h2>
+  <div class="skills-section-grid">
+    <div class="skills-group">
+      <h3>💡 Core Skills</h3>
+      <div class="skills-tags">
+        <span class="skill-tag">Problem Solving</span>
+        <span class="skill-tag">Logical Thinking</span>
+        <span class="skill-tag">Continuous Learning</span>
+      </div>
+    </div>
+    <div class="skills-group">
+      <h3>💻 Technical Skills</h3>
+      <div class="skills-tags">
+        <span class="skill-tag tech">Python</span>
+        <span class="skill-tag tech">C Programming</span>
+        <span class="skill-tag tech">HTML</span>
+        <span class="skill-tag tech">CSS</span>
+        <span class="skill-tag tech">JavaScript</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects">
+  <p class="section-label">Projects</p>
+  <h2>Things I've built</h2>
+  <div class="projects-grid">
+    <div class="project-card">
+      <div class="project-thumb">💻</div>
+      <div class="project-body">
+        <span class="project-tag">HTML · CSS · JavaScript</span>
+        <h3>Personal Portfolio Website</h3>
+        <ul>
+          <li>A responsive personal portfolio website showcasing skills, projects, and contact information in a clean, modern layout.</li>
+          <li>Fully responsive — works smoothly on mobile, tablet, and desktop devices.</li>
+          <li>Represents my personal brand as a developer and my learning journey in web development.</li>
+        </ul>
+        <div class="project-links">
+          <a href="https://github.com/in/RanaAfrin18" target="_blank">GitHub →</a>
+        </div>
+      </div>
+    </div>
+    <div class="project-card">
+      <div class="project-thumb">🧮</div>
+      <div class="project-body">
+        <span class="project-tag">HTML · CSS · JavaScript</span>
+        <h3>Simple Calculator</h3>
+        <ul>
+          <li>A basic calculator web app performing addition, subtraction, multiplication, and division.</li>
+          <li>Strengthened JavaScript fundamentals, logic building, and DOM manipulation skills.</li>
+          <li>Built with a clean and functional user interface.</li>
+        </ul>
+        <div class="project-links">
+          <a href="https://github.com/in/RanaAfrin18" target="_blank">GitHub →</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- EDUCATION -->
+<section id="education">
+  <p class="section-label">Education</p>
+  <h2>Academic background</h2>
+  <div class="timeline">
+
+    <div class="timeline-item">
+      <div class="timeline-dot"></div>
+      <div class="timeline-date">2025 — Present</div>
+      <h3>B.Tech in Artificial Intelligence &amp; Data Science</h3>
+      <p class="institution">Royal College of Engineering and Technology</p>
+      <p>Currently pursuing my Bachelor of Technology degree, learning core subjects like programming, data science, machine learning, and web development while building practical projects to improve my skills.</p>
+    </div>
+
+    <div class="timeline-item">
+      <div class="timeline-dot"></div>
+      <div class="timeline-date">2023 — 2025</div>
+      <h3>Higher Secondary Education (HSE)</h3>
+      <p class="institution">Kerala Higher Secondary Education &nbsp;|&nbsp; Science Stream</p>
+      <p>Completed higher secondary education with a focus on science. Built a strong foundation in mathematics, physics, and computer basics, which inspired my interest in technology and software development.</p>
+    </div>
+
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+  <p class="section-label">Contact</p>
+  <div class="contact-layout">
+    <div class="contact-info">
+      <h2>Let's connect.</h2>
+      <p>I'm open to internships, collaborations, and learning opportunities. Feel free to reach out — I'd love to hear from you!</p>
+      <div class="contact-links">
+        <a class="contact-link" href="mailto:ranamusthafa18@gmail.com">
+          <span class="contact-link-icon">✉️</span> ranamusthafa18@gmail.com
+        </a>
+        <a class="contact-link" href="https://github.com/in/RanaAfrin18" target="_blank">
+          <span class="contact-link-icon">🐙</span> github.com/in/RanaAfrin18
+        </a>
+        <a class="contact-link" href="https://linkedin.com/in/rana-afrin" target="_blank">
+          <span class="contact-link-icon">💼</span> linkedin.com/in/rana-afrin
+        </a>
+      </div>
+    </div>
+    <div class="contact-form">
+      <div class="form-group">
+        <label for="name">Name</label>
+        <input type="text" id="name" placeholder="Your name"/>
+      </div>
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" id="email" placeholder="your@email.com"/>
+      </div>
+      <div class="form-group">
+        <label for="message">Message</label>
+        <textarea id="message" placeholder="Say hello or tell me about an opportunity..."></textarea>
+      </div>
+      <a href="mailto:ranamusthafa18@gmail.com" class="btn btn-primary">Send Message</a>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <p>© 2026 <span>Rana Afrin K</span> · Built with HTML &amp; CSS · Deployed on Vercel</p>
+</footer>
+
+<script>
+  function toggleMenu() {
+    document.getElementById('mobileMenu').classList.toggle('open');
+  }
+  function closeMenu() {
+    document.getElementById('mobileMenu').classList.remove('open');
+  }
+  document.addEventListener('click', function(e) {
+    const menu = document.getElementById('mobileMenu');
+    const hamburger = document.querySelector('.hamburger');
+    if (!menu.contains(e.target) && !hamburger.contains(e.target)) {
+      menu.classList.remove('open');
+    }
+  });
+</script>
+
+</body>
+</html>
